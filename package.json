@@ -1,0 +1,30 @@
+{
+  "name": "pakistan-cables",
+  "version": "1.0.0",
+  "description": "the project scope include the design, developement and implementation of a sales management system for pakistan cables",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "akhtar",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "bcrypt": "^5.1.1",
+    "bull": "^4.16.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4",
+    "speakeasy": "^2.0.0",
+    "ua-parser-js": "^1.0.38"
+  },
+  "devDependencies": {
+    "prisma": "^5.18.0"
+  }
+}
